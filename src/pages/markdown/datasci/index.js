@@ -22,9 +22,9 @@ class MathIndex extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`Math Notes| ${siteTitle}`}
+          title={`Data Science| ${siteTitle}`}
         />
-        <h2>Math</h2>
+        <h2>Data Science</h2>
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.frontmatter.path
           return (
@@ -60,7 +60,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "numbertheory" } } }
+      filter: { frontmatter: { type: { eq: "datasci" } } }
     ) {
       edges {
         node {

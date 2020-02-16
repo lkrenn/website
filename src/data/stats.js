@@ -7,14 +7,14 @@ const data = [
     title: 'Multivariate Analysis',
     website: '',
     description: ``,
-    location: '../../markdown/godel/',
+    location: '../../markdown/multivariate/',
     image: Image1,
   },
   {
     title: 'Introduction to Data Science Theory',
     website: '',
     description: ``,
-    location: '../../markdown/godel/',
+    location: '../../markdown/datasci/',
     image: Image2,
   }
 ]

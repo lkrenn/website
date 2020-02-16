@@ -8,10 +8,10 @@ tags:
   - remark
   - Kitchen Sink
   - Images
-type: "numbertheory"
+type: "multivariate"
 ---
 
-This is a test unqiue to stats.
+This is a test unqiue to multivariate.
 
 $$
 \sum_{i=1}^{5}
