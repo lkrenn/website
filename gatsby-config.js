@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-minimal-portfolio-blog',
+    title: 'Krenn',
     author: 'Sai Krishna',
     description:
       'GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers.',
@@ -13,6 +13,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'blog',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "krenn.ca",
       },
     },
     {

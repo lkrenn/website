@@ -11,7 +11,7 @@ tags:
 type: "godel"
 ---
 
-This is a test unique to the godel folder.
+This is a test unique t
 
 $$
 \sum_{i=1}^{5}
