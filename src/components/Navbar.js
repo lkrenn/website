@@ -25,7 +25,7 @@ export class Navbar extends Component {
           }}
         >
           <Link to={'/'}>Home</Link>
-          <Link to={'/portfolio'}>Math</Link>
+          <Link to={'/logic'}>Logic</Link>
           <Link to={'/stats'}>Stats</Link>
           <Link to={'/quant'}>Quant</Link>
           <a href={contactData.github} target="_new">
@@ -39,6 +39,7 @@ export class Navbar extends Component {
   }
 }
 
-/*<Link to={'/journey'}>Journey</Link>*/
+/*<Link to={'/journey'}>Journey</Link>
+<Link to={'/portfolio'}>Math</Link>*/
 
 export default Navbar
